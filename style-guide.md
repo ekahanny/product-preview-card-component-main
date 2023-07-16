@@ -33,3 +33,9 @@ The designs were created to the following widths:
 
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700
+
+### Image-Dekstop
+width: 305px
+height: 450px
+
+
