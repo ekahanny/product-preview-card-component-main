@@ -116,16 +116,13 @@ button img{
 }
 
 @media only screen and (max-width: 600px) {
-
-    body{
-        padding: 100px;
-    }
     
     .card-product{
         display: flex;
         flex-direction: column;
         width: 350px;
         height: 650px;
+        margin: 40px 80px 20px 80px;
     }
 
     .product-img{
