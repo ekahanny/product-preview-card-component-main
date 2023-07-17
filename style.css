@@ -117,4 +117,24 @@ button img{
 
 @media only screen and (max-width: 600px) {
     
+    .card-product{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 650px;
+    }
+
+    .product-img{
+        width: auto;
+        background-image: url("./images/image-product-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .product-info{
+        padding: 25px;
+        width: inherit;
+    }
+    
 }
