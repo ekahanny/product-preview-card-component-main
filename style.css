@@ -120,9 +120,10 @@ button img{
     .card-product{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 350px;
         height: 650px;
-        margin: 40px 80px 20px 80px;
     }
 
     .product-img{
