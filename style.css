@@ -138,5 +138,9 @@ button img{
         padding: 25px;
         width: inherit;
     }
+
+    .attribution a{
+        margin-bottom: 20px;
+    }
     
 }
