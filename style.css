@@ -116,12 +116,19 @@ button img{
 }
 
 @media only screen and (max-width: 600px) {
-    
-    .card-product{
+
+    body{
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 20px 150px 0px 150px;
+    }
+    
+    .card-product{
+        display: flex;
+        flex-direction: column;
         width: 350px;
         height: 650px;
     }
@@ -139,8 +146,9 @@ button img{
         width: inherit;
     }
 
-    .attribution a{
-        margin-bottom: 20px;
+    .attribution {
+        display: block;
+        font-size: 10px;
     }
     
 }
