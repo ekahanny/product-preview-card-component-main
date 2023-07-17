@@ -18,20 +18,25 @@ body{
 .card-product{
     display: flex;
     flex-direction: row;
-    width: 605px;
+    width: 610px;
     height: 450px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
 
 }
 
-.product-img img{
-    width: 305px;
+.product-img{
+    width: 50%;
     height: 450px;
-    border-radius: 10px 0px 0px 10px;
+    background-image: url("./images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px 0 0 10px;
 }
 
 .product-info{
+    width: 50%;
+    height: 450px;
     padding: 30px;
 }
 
